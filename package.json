@@ -97,7 +97,23 @@
   },
   "overrides": {
     "@nestjs/graphql": {
-      "ts-morph": "^22.0.0"
+      "ts-morph": "^22.0.0",
+      "lodash": "https://npm.aikido.io/210c0f0852d6401e4e97c/lodash@4.17.21-aikido.2"
+    },
+    "knex": {
+      "lodash": "https://npm.aikido.io/210c0f0852d6401e4e97c/lodash@4.17.21-aikido.2"
+    },
+    "inquirer": {
+      "lodash": "https://npm.aikido.io/210c0f0852d6401e4e97c/lodash@4.17.21-aikido.2"
+    },
+    "node-emoji": {
+      "lodash": "https://npm.aikido.io/210c0f0852d6401e4e97c/lodash@4.17.21-aikido.2"
+    },
+    "@nestjs/config": {
+      "lodash": "https://npm.aikido.io/210c0f0852d6401e4e97c/lodash@4.17.21-aikido.2"
+    },
+    "@nestjs/swagger": {
+      "lodash": "https://npm.aikido.io/210c0f0852d6401e4e97c/lodash@4.17.21-aikido.2"
     }
   },
   "engines": {
